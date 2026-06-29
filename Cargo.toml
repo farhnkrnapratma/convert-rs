@@ -1,0 +1,17 @@
+[package]
+name = "crt"
+version = "0.1.0"
+authors = ["Farhan Kurnia Pratama <contact@fkp.my.id>"]
+edition = "2024"
+rust-version = "1.85"
+description = "A simple and blazingly fast unit conversion API powered by Rust"
+documentation = "https://fkp.my.id/projects/convert-rs/docs/"
+readme = "README.md"
+homepage = "https://fkp.my.id/projects/convert-rs/"
+repository = "https://github.com/farhnkrnapratma/convert-rs"
+license = "MIT"
+keywords = ["converter", "api", "measurement"]
+categories = ["api-bindings", "command-line-utilities", "mathematics", "science"]
+publish = true
+
+[dependencies]
