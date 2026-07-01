@@ -15,3 +15,7 @@ categories = ["api-bindings", "command-line-utilities", "mathematics", "science"
 publish = true
 
 [dependencies]
+actix-web = "4"
+actix-cors = "0.7"
+actix-governor = "0.6"
+serde = { version = "1.0.228", features = ["std", "derive"] }
